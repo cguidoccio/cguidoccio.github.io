@@ -1,0 +1,537 @@
+.prefix_head {
+  margin: 10px 0px 0px 0px;
+  width: 80%;
+}
+
+.formInputErrorMessage {color: red;}
+
+.form-select, 
+.form-item input[type='text'], 
+.form-item input[type='password'], 
+.form-item input[type='number'], 
+.form-item input[type='phone'], 
+.form-item textarea, 
+select + .chosen-container-multi .chosen-choices {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  padding: 9px 9px 9px 15px;
+  background: #f1f1f2 no-repeat right top;
+  background: #f1f1f2 \9;
+  border: 1px solid transparent;color: #777777;
+  font-size: 15px;
+  line-height: 21px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: inset 0 2px 0 #d0d0d6;
+}
+form div.pw_description {
+  margin-bottom: -10px;
+  font-weight: 400;
+  display: table;
+}
+.form-select, .chosen-container, select + .chosen-container-multi .chosen-choices{
+  background: #f1f1f2 url("1jwxutao0kjimtgtzu4dr6c29.webp") no-repeat right top;
+}
+.form-item input[type='text'], 
+.form-item input[type='password'], 
+.form-item select, .form-item textarea,
+.form-item input[type='number'], 
+.form-item input[type='phone'], 
+.grippie, .input-matched {
+    width: 100%;
+    border: 1px solid transparent;
+}
+/*---------------------------------------------*/
+input::-webkit-input-placeholder{
+  color:#777;
+}
+input:-moz-placeholder { 
+  color:#777;  
+}
+input::-moz-placeholder {  
+  color:#777;  
+}
+input:-ms-input-placeholder {  
+  color:#777;  
+}
+form .form-item label {
+	display: none;
+}
+form .form-item label.option {
+  display: block;
+}
+form .form-item.form-type-radio label{
+	display: initial;
+	display: inline-block\0/;
+}
+.form-type-checkbox label {
+  width: 90%;
+  display: inline;
+  float: left;
+}
+::-webkit-input-placeholder {
+  color: #333;
+  padding-left:5px;
+}
+:-moz-placeholder { 
+  color: #333;
+  padding-left:5px;  
+}
+::-moz-placeholder {  
+  color: #333; 
+  padding-left:5px;
+}
+:-ms-input-placeholder {  
+  color: #333;  
+  padding-left:5px;
+}
+.match-placeholder {
+  color: #777;
+  font-size: 15px;
+}
+.req-text {
+  margin-top: 1em;
+}
+select,
+textarea,
+.form-item input {
+	padding-left: 5px;
+}
+label.placeholder {
+  padding-top: 4px !important;
+  padding-left: 10px !important;
+}
+form .formInputError.form-item select,
+form .formInputError.form-item textarea,
+form .form-item input.error,
+form .form-item textarea.error,
+form .form-item select.error {
+  border: 1px solid red;
+  background: #fff;
+  box-shadow: none;
+  outline: none;
+  margin-top: 0;
+}
+form .form-item label.error {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 3px 0;
+  min-width: 120px;
+}
+.form-type-radios input,
+.form-type-checkbox input {
+  height: auto;
+}
+form .form-item input:focus,
+form .form-item select:focus,
+form .form-item textarea:focus,
+form .form-item .formInputError input:focus,
+form .form-item .formInputError select:focus,
+form .form-item .formInputError textarea:focus {
+  border: 1px solid #0078C9;
+  background: #fff;
+  box-shadow: none;
+  outline: none;
+}
+form .opt-in-top,
+form .opt-in-bottom {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 19px;
+  color: #999;
+}
+form .form-type-checkbox .opt-in-bottom {
+  font-size: 14px;
+}
+form .opt-in-top {
+  margin-top: 0px;
+  margin-bottom: 20px; 
+}
+form .opt-in-bottom {
+  margin-top:30px;
+}
+#submit{
+  float:left;
+  margin: 15px 0px;
+}
+form .form-section-header {
+  display: inline-block;
+  margin-top: 25px;
+}
+form .input-matched {
+  clear: both;
+}
+form .form-item + .input-matched.radio-prefix {
+	margin-bottom: 0px;
+	margin-top: 2em;
+}
+form .radio-prefix + .form-type-radios {
+	margin-top: 0px;
+	margin-bottom: 1em;
+}
+form .form-item + .input-matched {
+	margin-top: 1em;
+}
+form .no-top {
+  margin-top: 0px;
+}
+form .captcha {
+  clear: both;
+}
+form .captcha label{
+  display: initial;
+  display: inline-block\0/;
+  font-weight: normal;
+  font-size: 14px;
+}
+form .captcha .form-required {
+  color: inherit;
+}
+form .captcha .description {
+  display: none;
+}
+.container .messages.error p{
+  margin: -2px auto 0px;
+}
+
+/*IE fix for placeholder on get a quote page*/
+
+label.placeholder {
+  display: block;
+}
+
+.form-item-C-Actual-Expense-Report-Volume---Month1 + .form-item-C-FirstName {
+  clear: both;
+}
+
+/*Adding TMC Main Contact Form styles*/
+#contact-tmc-main-form .prefix_title, #contact-tmc-main-form .prefix_checkbox {
+  margin: 15px 0px 0px 0px;
+  font-weight: 600;
+}
+#contact-tmc-main-form .prefix_title {
+  width: 80%;
+}
+
+/*Centering TMC Main form*/
+#contact-tmc-main-form {
+  margin-left: 64%;
+  width: 100%;
+  margin-top: -60px;
+}
+#premier-blue-box {
+  background-color: #558e2d;
+  padding: 60px 0;
+  width: 100%;
+}
+.tmc-icon {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+}
+@media (max-width: 991px){
+  .tmc-icon {
+    display: none;
+  }
+}
+
+/*Styles for testdrivenator form*/
+
+#concur-test-drivenator-form .bottom {
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 80%;
+  margin: 20px 0 10px;
+}
+#concur-test-drivenator-form input {
+  clear: both;
+  float: none;
+}
+#concur-test-drivenator-form .bottom input {
+  width: 100%;
+}
+#concur-test-drivenator-form .bottom .form-item {
+  display: none;
+}
+#concur-test-drivenator-form .bottom .form-item-Prospect1-FirstName,
+#concur-test-drivenator-form .bottom .form-item-Prospect1-Email {
+  display: block;
+}
+#concur-test-drivenator-form .add_another {
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+#concur-test-drivenator-form .close-form {
+  width: 100%;
+  text-align: right;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+#concur-test-drivenator-form .agree_t_and_c {
+  margin: 5px 10px 0 0;
+}
+#concur-test-drivenator-form .form-item-agree-t-and-c label {
+  width: 80%;
+}
+@media (max-width: 767px){
+  #concur-test-drivenator-form .bottom {
+    width: 100%;
+  }
+}
+
+/*advisor referral*/
+
+#concur-advisor-registration-form {
+  margin-bottom: 30px;
+}
+
+#concur-advisor-registration-form input[type="checkbox"] {
+  float: left;
+  margin: 5px 10px 0 0;
+}
+#concur-advisor-registration-form .form-item.form-type-checkbox {
+  float: none;
+  clear: both;
+}
+#concur-advisor-registration-form .form-item-C-AdvisorPlatinumRequest {
+  display: none;
+}
+
+/*advisor t and c*/
+#concur-advisor-tandc-form {
+  margin: 40px 0;
+}
+#concur-advisor-tandc-form .form-type-checkbox {
+  padding: 15px 0;
+}
+
+#concur-advisor-tandc-form .form-type-checkbox input{
+  margin: 3px 10px 0 0;
+  float: left;
+}
+#concur-advisor-tandc-form .form-type-checkbox label {
+  display: inline-block;
+  float: none;
+}
+#concur-advisor-tandc-form .form-type-checkbox label.error {
+  margin-top: 0;
+}
+
+/*get quote override*/
+#get-a-quote-form .form-type-checkbox {
+  min-height: inherit;
+  margin-top: 10px;
+}
+#get-a-quote-form .form-type-checkbox p {
+  padding: 0;
+}
+
+#get-a-quote-form .captcha img {
+  margin: 10px 20px;
+}
+
+
+@media (max-width: 767px){
+  #get-a-quote-form .form-item {
+    width: 100%;
+  }
+}
+
+/*form_6_2o_4_right_text*/
+.form_6_2o_4_right_text input[type='text'],
+.form_6_2o_4_right_text select,
+.form_6_2o_4_right_text textarea,
+.form_6_2o_4_right_text input[type='number'],
+.form_6_2o_4_right_text input[type='phone'],
+.form_6_2o_4_right_text .grippie,
+.form_6_2o_4_right_text .input-matched,
+.form_6_2o_4_right_text  .form-item input[type='password']  {
+  width: 80%;
+}
+.form_6_2o_4_right_text .form-item input[type='radio'] { 
+  margin: 0 2px 2px;
+  box-shadow: none;
+}
+.form_6_2o_4_right_text .form-item {
+  margin-bottom: 0px;
+}
+@media (max-width: 767px) {
+  .form_6_2o_4_right_text label,
+  .form_6_2o_4_right_text input[type='text'],
+  .form_6_2o_4_right_text input[type='number'],
+  .form_6_2o_4_right_text input[type='phone'],
+  .form_6_2o_4_right_text select,
+  .form_6_2o_4_right_text textarea,
+  .form_6_2o_4_right_text .grippie,
+  .form_6_2o_4_right_text .input-matched,
+  .form_6_2o_4_right_text  .form-item input[type='password'] {
+    width: 100%;
+  }
+}
+
+/*form_6_2o_4_left_text*/
+.form_6_2o_4_left_text .form-item input[type='radio'] {
+  margin: 0 2px 2px;
+  box-shadow: none;
+}
+
+/*form_6_2o_5_left_text*/
+.form_6_2o_5_left_text input[type='text'],
+.form_6_2o_5_left_text input[type='number'],
+.form_6_2o_5_left_text input[type='phone'],
+.form_6_2o_5_left_text select,
+.form_6_2o_5_left_text textarea,
+.form_6_2o_5_left_text .grippie,
+.form_6_2o_5_left_text .input-matched,
+.form_6_2o_5_left_text .form-item input[type='password']  {
+  width: 80%;
+}
+.form_6_2o_5_left_text .form-item input[type='radio'] { 
+  margin: 0 2px 2px;
+  box-shadow: none;
+}
+.form_6_2o_5_left_text #registration-form input#edit-agree-t-and-c {
+  float: left;
+  margin-right: 10px;
+}
+.form_6_2o_5_left_text #registration-form .form-item-agree-t-and-c label {
+  padding-bottom: 20px;
+}
+.form_6_2o_5_left_text #registration-form .form-item-agree-t-and-c label.error{
+  margin-top: -3px;
+  padding-bottom: 5px;
+}
+
+.form_6_2o_5_left_text #registration-form .fa.fa-spinner {
+	background: url("2btikpsqd32sy20brx44vnb3jp.gif") no-repeat center right 15px;
+}
+
+.form_6_2o_5_left_text .form-item {
+  margin-bottom: 0px;
+}
+@media (max-width: 767px) {
+  .form_6_2o_5_left_text label,
+  .form_6_2o_5_left_text input[type='text'],
+  .form_6_2o_4_right_text input[type='number'],
+  .form_6_2o_4_right_text input[type='phone'],
+  .form_6_2o_5_left_text select,
+  .form_6_2o_5_left_text textarea,
+  .form_6_2o_5_left_text .grippie,
+  .form_6_2o_5_left_text .input-matched,
+  .form_6_2o_5_left_text .form-item input[type='password'] {
+    width: 100%;
+  }
+}
+/*Lp number of employees fix*/
+ #lp-template-form .form-item input[type='text'], 
+ #lp-template-form .form-item select, 
+ #lp-template-form .form-item textarea,
+ #lp-template-form .grippie, 
+ #lp-template-form .input-matched {
+  width: 100%;
+  padding: 9px 0px 9px 5px;
+}
+ #lp-template-short-form .form-item input[type='text'], 
+ #lp-template-short-form .form-item select, 
+ #lp-template-short-form .form-item textarea,
+ #lp-template-short-form .grippie, 
+ #lp-template-short-form .input-matched {
+  width: 100%;
+  padding: 9px 0px 9px 5px;
+}
+ #lp-template-tmc-form .form-item input[type='text'], 
+ #lp-template-tmc-form .form-item select, 
+ #lp-template-tmc-form .form-item textarea,
+ #lp-template-tmc-form .grippie, 
+ #lp-template-tmc-form .input-matched {
+  width: 100%;
+  padding: 9px 0px 9px 5px;
+}
+
+input[type="checkbox"].checkbox-left {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Partner Referral */
+.form-item-ReferralFormData3--c,
+.form-item-ReferralFormData3--c{
+  clear: both;
+}
+
+#edit-referralformdata3-c-yes,
+#edit-referralformdata3-c-no {
+  float: left;
+  margin-right: 10px;
+}
+
+.gov-title,
+.referral-privacy {
+  margin: 20px 0;
+}
+
+/* PTF form styles*/
+#concur-perfect-trip-fund-form {
+  width: 80%;
+  margin-left: 15%;
+}
+@media (max-width: 768px){
+  #concur-perfect-trip-fund-form .form-item input[type='text'],
+  #concur-perfect-trip-fund-form .form-item select, 
+  #concur-perfect-trip-fund-form .form-item textarea, 
+  #concur-perfect-trip-fund-form .grippie, 
+  #concur-perfect-trip-fund-form .input-matched {
+      width: 100%;
+  }
+  #concur-perfect-trip-fund-form {
+      width: 90%;
+      margin-left: 5%;
+  }
+}
+
+#concur-subscription-form .form-item-C-Legal-Opt-In1 {
+  position: relative;
+}
+
+#concur-subscription-form .form-item-C-Legal-Opt-In1 .form-required {
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+/* show edit field styles */
+.show-edit-field {
+  padding: 12px 15px;
+  background-color: #f1f1f2;
+  border-radius: 2px;
+}
+.show-edit-field a {
+  cursor: pointer;
+}
+
+/* TW Phone & Email Opt-In */
+.form-item.form-type-radio {
+  display: inline-block;
+}
+.gdpr-title {
+  padding-top: 20px;
+}
+.gdpr-wrapper {
+  display: inline-block;
+  width: 50%;
+}
+.form-type-radios div.radioError {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+}
+@media (max-width: 991px){
+  .gdpr-wrapper {
+    text-align: center;
+  }
+}
